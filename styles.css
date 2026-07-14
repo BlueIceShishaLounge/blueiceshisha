@@ -239,7 +239,7 @@
   .contact-actions { display:flex; gap:12px; margin-top: 22px; flex-wrap:wrap; }
   @media (max-width: 760px) { .standort-grid { grid-template-columns: 1fr; } }
 
-  footer { text-align:center; padding: 40px 20px 60px; border-top: 1px solid var(--border); font-size:11px; color:var(--cream-faint); letter-spacing:.5px; line-height:2.2; }
+  footer { position: relative; z-index: 1; text-align:center; padding: 40px 20px 60px; border-top: 1px solid var(--border); font-size:11px; color:#ffffff; letter-spacing:.5px; line-height:2.2; }
   footer a { color:rgba(180,145,80,.55); text-decoration:none; }
   footer a:hover { color:var(--gold); }
   .footer-ornament { color:var(--gold-d); letter-spacing:8px; font-size:12px; opacity:.4; margin-bottom:8px; display:block; }
